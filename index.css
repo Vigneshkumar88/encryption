@@ -1,0 +1,34 @@
+div{
+    margin: auto;
+    text-align: center;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.d1,.d2{
+    margin-top: 40px;
+}
+
+label{
+    font-size: 20px;
+}
+
+textarea{
+    margin-top: 20px;
+    height: 50px;
+    width: 400px;
+    font-size: 18px;
+
+}
+
+.ebut,.dbut{
+    margin-top: 10px;
+}
+
+#encrypt,#dcrypt{
+    font-size: 20px;
+}
+
+
