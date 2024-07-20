@@ -29,6 +29,9 @@ textarea{
 
 #encrypt,#dcrypt{
     font-size: 20px;
+    width: 80%;
+    word-wrap:break-word;
+    margin: 0 auto;
 }
 
 
