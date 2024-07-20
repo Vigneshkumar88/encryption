@@ -32,7 +32,7 @@ textarea{
     width: 80%;
     word-wrap:break-word;
     margin: 0 auto;
-    text-align: left;
+    
 }
 
 
@@ -43,6 +43,10 @@ textarea{
         height: 50px;
         width: 250px;
         font-size: 18px;
+    
+    }
+    #encrypt,#dcrypt{
+        text-align: left;
     
     }
   }
