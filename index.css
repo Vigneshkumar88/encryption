@@ -32,6 +32,7 @@ textarea{
     width: 80%;
     word-wrap:break-word;
     margin: 0 auto;
+    text-align: left;
 }
 
 
