@@ -1,3 +1,5 @@
+alert("For symbols only Coma( , ) and Dot( . ) are supported")
+
 let a = "dgh/";
 let b = "kdd/";
 let c = "ncb/";
@@ -25,7 +27,38 @@ let x = "zxw/";
 let y = "ore/";
 let z = "xwv/";
 let space = " /";
-let dot = "./"
+let dot = "./";
+let coma =",/";
+
+let A='dgh*/';
+let B='kdd*/';
+let C='ncb*/';
+let D='yry*/';
+let E='kfj*/';
+let F='lot*/';
+let G='ucg*/';
+let H='ldt*/';
+let I='wrf*/';
+let J='qwr*/';
+let K='lko*/';
+let L='qaw*/';
+let M='pli*/';
+let N='tyb*/';
+let O='dfq*/';
+let P='mks*/';
+let Q='aoh*/';
+let R='uxw*/';
+let S='amd*/';
+let T='wes*/';
+let U='wer*/';
+let V='vtw*/';
+let W='xaq*/';
+let X='zxw*/';
+let Y='ore*/';
+let Z='xwv*/';
+
+
+
 
 let a2 = "dgh";
 let b2 = "kdd";
@@ -55,13 +88,39 @@ let y2 = "ore";
 let z2 = "xwv";
 let space2 = " ";
 let dot2 =".";
+let coma2 =",";
+
+let A2='dgh*';
+let B2='kdd*';
+let C2='ncb*';
+let D2='yry*';
+let E2='kfj*';
+let F2='lot*';
+let G2='ucg*';
+let H2='ldt*';
+let I2='wrf*';
+let J2='qwr*';
+let K2='lko*';
+let L2='qaw*';
+let M2='pli*';
+let N2='tyb*';
+let O2='dfq*';
+let P2='mks*';
+let Q2='aoh*';
+let R2='uxw*';
+let S2='amd*';
+let T2='wes*';
+let U2='wer*';
+let V2='vtw*';
+let W2='xaq*';
+let X2='zxw*';
+let Y2='ore*';
+let Z2='xwv*';
 
 
 
 let msg =document.getElementById('msg')
-// let msgval =msg.value
 let code =document.getElementById('code')
-
 
 let ebut = document.getElementById('ebut')
 let dbut = document.getElementById('dbut')
@@ -78,8 +137,6 @@ function encrypt(){
    
 
     let msgval =msg.value;
-    // console.log(msgval)
-
     let val = msgval.split("")
 
     let ecode = []
@@ -170,18 +227,94 @@ function encrypt(){
         else if(v1=="."){
             ecode.push(dot)
         }
-        // else{
-        //     alert("Error")
-        // }
- 
-    }
+        else if(v1==","){
+            ecode.push(coma)
+        }
 
-    console.log(ecode)
+        if(v1=="A"){
+            ecode.push(A)
+        }
+        else if(v1=="B"){
+            ecode.push(B)
+        }
+        else if(v1=="C"){
+            ecode.push(C)
+        }
+        else if(v1=="D"){
+            ecode.push(D)
+        }
+        else if(v1=="E"){
+            ecode.push(E)
+        }
+        else if(v1=="F"){
+            ecode.push(F)
+        }
+        else if(v1=="G"){
+            ecode.push(G)
+        }
+        else if(v1=="H"){
+            ecode.push(H)
+        }
+        else if(v1=="I"){
+            ecode.push(I)
+        }
+        else if(v1=="J"){
+            ecode.push(J)
+        }
+        else if(v1=="K"){
+            ecode.push(K)
+        }
+        else if(v1=="L"){
+            ecode.push(L)
+        }
+        else if(v1=="M"){
+            ecode.push(M)
+        }
+        else if(v1=="N"){
+            ecode.push(N)
+        }
+        else if(v1=="O"){
+            ecode.push(O)
+        }
+        else if(v1=="P"){
+            ecode.push(P)
+        }
+        else if(v1=="Q"){
+            ecode.push(Q)
+        }
+        else if(v1=="R"){
+            ecode.push(R)
+        }
+        else if(v1=="S"){
+            ecode.push(S)
+        }
+        else if(v1=="T"){
+            ecode.push(T)
+        }
+        else if(v1=="U"){
+            ecode.push(U)
+        }
+        else if(v1=="V"){
+            ecode.push(V)
+        }
+        else if(v1=="W"){
+            ecode.push(W)
+        }
+        else if(v1=="X"){
+            ecode.push(X)
+        }
+        else if(v1=="Y"){
+            ecode.push(Y)
+        }
+        else if(v1=="Z"){
+            ecode.push(Z)
+        }
+
+ }
+
 
     var res = ecode.join("")
-    // console.log(res)
     en.innerHTML=res
-    // assing(res)
     code.value=""
 
 
@@ -193,10 +326,8 @@ function encrypt(){
  function decrypt(){
 
     let res2 = code.value
-    console.log(res2)
     let val2 =res2.split("/")
-    console.log(val2)
-
+    
     let dcode =[]
 
     for(v11 of val2)
@@ -286,14 +417,94 @@ function encrypt(){
         else if(v11==dot2){
             dcode.push(dot2)
         }
-        // else{
-        //     alert("Error")
-        // }
+        else if(v11==coma2){
+            dcode.push(coma2)
+        }
+
+                
+        else if(v11==A2){
+            
+            dcode.push("A")
+        }
+        else if(v11==B2){
+            dcode.push("B")
+        }
+        else if(v11==C2){
+            dcode.push("C")
+        }
+        else if(v11==D2){
+            dcode.push("D")
+        }
+        else if(v11==E2){
+            dcode.push("E")
+        }
+        else if(v11==F2){
+            dcode.push("F")
+        }
+        else if(v11==G2){
+            dcode.push("G")
+        }
+        else if(v11==H2){
+            dcode.push("H")
+        }
+        else if(v11==I2){
+            dcode.push("I")
+        }
+        else if(v11==J2){
+            dcode.push("J")
+        }
+        else if(v11==K2){
+            dcode.push("K")
+        }
+        else if(v11==L2){
+            dcode.push("L")
+        }
+        else if(v11==M2){
+            dcode.push("M")
+        }
+        else if(v11==N2){
+            dcode.push("N")
+        }
+        else if(v11==O2){
+            dcode.push("O")
+        }
+        else if(v11==P2){
+            dcode.push("P")
+        }
+        else if(v11==Q2){
+            dcode.push("Q")
+        }
+        else if(v11==R2){
+            dcode.push("R")
+        }
+        else if(v11==S2){
+            dcode.push("S")
+        }
+        else if(v11==T2){
+            dcode.push("T")
+        }
+        else if(v11==U2){
+            dcode.push("U")
+        }
+        else if(v11==V2){
+            dcode.push("V")
+        }
+        else if(v11==W2){
+            dcode.push("W")
+        }
+        else if(v11==X2){
+            dcode.push("X")
+        }
+        else if(v11==Y2){
+            dcode.push("Y")
+        }
+        else if(v11==Z2){
+            dcode.push("Z")
+        }
+
+   
 
         let dres= dcode.join("")
-
-        console.log(dcode)
-        console.log(dres)
         dy.innerHTML=dres
         
 
